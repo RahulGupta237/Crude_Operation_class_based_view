@@ -10,6 +10,8 @@ from django.views import View
 
 # Create your views here.
 
+""" This is Crude operation Create Update and Delete with the help of Class based views in django"""
+
 class StudentAddShowViews(TemplateView):
     """This class Create data and Read data"""
     template_name='CrudeApp/create_read.html'
